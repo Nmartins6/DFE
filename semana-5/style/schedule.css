@@ -1,0 +1,16 @@
+/* Estilos específicos para a página de Horários */
+.main-content {
+    background-color: #181818;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
+}
+
+.schedule__row {
+    transition: background-color 0.3s ease;
+}
+
+.schedule__row:hover {
+    background-color: var(--cor-acento);
+    color: var(--cor-clara);
+}

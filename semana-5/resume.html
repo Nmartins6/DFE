@@ -5,70 +5,107 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Currículo Nicolas Martins</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/resume.css">
 </head>
 
-<body>
-    <header>
-        <h1>Currículo Nicolas Martins</h1>
+<body class="page">
+    <header class="header">
+        <h1 class="header__title">Currículo Nicolas Martins</h1>
     </header>
 
-    <hr>
-
-    <nav>
-       
-        <ul>
-            <li style="display: inline; margin-right: 15px;">
-                <a href="./index.html"><mark>Início</mark></a>
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__item">
+                <a href="./index.html" class="nav__link">Início</a>
             </li>
-            <li style="display: inline; margin-right: 15px;">
-                <a href="./aboutMe.html"><mark>Sobre mim</mark></a>
+            <li class="nav__item">
+                <a href="./aboutMe.html" class="nav__link">Sobre mim</a>
             </li>
-            <li style="display: inline; margin-right: 15px;">
-                <a href="./resume.html"><mark>Currículo</mark></a>
+            <li class="nav__item">
+                <a href="./resume.html" class="nav__link">Currículo</a>
             </li>
-            <li style="display: inline; margin-right: 15px;">
-                <a href="./cite.html"><mark>Citações</mark></a>
+            <li class="nav__item">
+                <a href="./cite.html" class="nav__link">Citações</a>
             </li>
-            <li style="display: inline; margin-right: 15px;">
-                <a href="./hobbies.html"><mark>Hobbies</mark></a>
+            <li class="nav__item">
+                <a href="./hobbies.html" class="nav__link">Hobbies</a>
             </li>
-            <li style="display: inline;">
-                <a href="./favorite.html"><mark>Favoritos</mark></a>
+            <li class="nav__item">
+                <a href="./favorite.html" class="nav__link">Favoritos</a>
+            </li>
+            <li class="nav__item">
+                <a href="./schedule.html" class="nav__link">Horários</a>
+            </li>
+            <li class="nav__item">
+                <a href="./agenda.html" class="nav__link">Marcar Horário</a>
             </li>
         </ul>
     </nav>
 
-    <hr>
+    <main class="main-content">
+        <h3 class="main-content__title">Currículo</h3>
+        
+        <section class="resume">
+            <div class="resume__item">
+                <table class="resume__table">
+                    <tr>
+                        <td class="resume__logo">
+                            <a href="https://www2.gerdau.com.br/" target="_blank">
+                                <img src="./assets/resume/Gerdau.png" alt="Logo Gerdau" class="resume__image">
+                            </a>
+                        </td>
+                        <td class="resume__info">
+                            <i>Operador Mantenedor de Utilidades</i> Gerdau - Charqueadas <sub>03/2021 - atual</sub>
+                        </td>
+                    </tr>
+                </table>
+                <p class="resume__description">
+                    Manutenção elétrica e mecânica de equipamentos usados na geração de insumos para a planta, bem como controle de custos e consumo dos mesmos.
+                </p>
+            </div>
 
-    <main>
+            <div class="resume__item">
+                <table class="resume__table">
+                    <tr>
+                        <td class="resume__logo">
+                            <a href="https://www.ifsul.edu.br/" target="_blank">
+                                <img src="./assets/resume/IFSUL.png" alt="Logo IFSUL" class="resume__image">
+                            </a>
+                        </td>
+                        <td class="resume__info">
+                            <i>Estudande de sistemas para internet</i> no <abbr title="Instituto Federal Sul-Riograndense">IFSUL</abbr> - Charqueadas <sub>07/2021 - atual (tá difícil)</sub>
+                        </td>
+                    </tr>
+                </table>
+                <p class="resume__description">
+                    O curso de Sistemas para Internet é fundamentado no estudo da criação, desenvolvimento e manutenção de sistemas e aplicações web.
+                </p>
+            </div>
 
-        <h3>Currículo</h3>
-
-        <p><i><b>Operador Mantenedor de Utilidades - Gerdau Charqueadas<sub> 2022-atual</sub></b></i></p>
-        <p>Manutenção elétrica e mecânica e gestão de insumos da planta.</p>
-
-        <br>
-
-        <p><i><b>Estudante de Sistemas pra internet <abbr title="Instituto Federal sul-riograndense">IFSUL</abbr>
-                    Charqueadas<sub> 2021-atual (tá dificil)</sub></b></i></p>
-        <p>Estudante do curso de sistemas pra internet.</p>
-
-        <br>
-
-        <p><i><b>Tecnico em Mecânica <abbr title="Escola técnica estadual">CTE</abbr> Parobé<sub> 2016 -
-                        2018</sub></b></i></p>
-        <p>Formado em técnico em mecânica industrial</p>
-
+            <div class="resume__item">
+                <table class="resume__table">
+                    <tr>
+                        <td class="resume__logo">
+                            <a href="https://www.cteparobe.com.br/" target="_blank">
+                                <img src="./assets/resume/PAROBE.png" alt="Logo Parobé" class="resume__image">
+                            </a>
+                        </td>
+                        <td class="resume__info">
+                            <i>Técnico em Mecânica</i> <abbr title="Escola Tecnica Estadual">CTE</abbr> Parobé - Porto Alegre <sub>07/2016 - 07/2018</sub>
+                        </td>
+                    </tr>
+                </table>
+                <p class="resume__description">
+                    Técnico em Mecânica industrial.
+                </p>
+            </div>
+        </section>
     </main>
 
-    <hr>
-
-    <footer>
-        <h4>Feito por Nicolas Martins</h4>
+    <footer class="footer">
+        <h4 class="footer__text">Feito por Nicolas Martins</h4>
     </footer>
-
-    <hr>
-
 </body>
 
 </html>

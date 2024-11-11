@@ -1,79 +1,84 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Favoritos Nicolas Martins</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="style/favorite.css">
 </head>
-<body>
-    <header>
-        <h1>Favoritos Nicolas Martins</h1>
+
+<body class="page">
+    <header class="header">
+        <h1 class="header__title">Favoritos Nicolas Martins</h1>
     </header>
 
-    <hr>
-
-    <nav>
-       
-        <ul>
-            <li style="display: inline; margin-right: 15px;">
-                <a href="./index.html"><mark>Início</mark></a>
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__item">
+                <a href="./index.html" class="nav__link">Início</a>
             </li>
-            <li style="display: inline; margin-right: 15px;">
-                <a href="./aboutMe.html"><mark>Sobre mim</mark></a>
+            <li class="nav__item">
+                <a href="./aboutMe.html" class="nav__link">Sobre mim</a>
             </li>
-            <li style="display: inline; margin-right: 15px;">
-                <a href="./resume.html"><mark>Currículo</mark></a>
+            <li class="nav__item">
+                <a href="./resume.html" class="nav__link">Currículo</a>
             </li>
-            <li style="display: inline; margin-right: 15px;">
-                <a href="./cite.html"><mark>Citações</mark></a>
+            <li class="nav__item">
+                <a href="./cite.html" class="nav__link">Citações</a>
             </li>
-            <li style="display: inline; margin-right: 15px;">
-                <a href="./hobbies.html"><mark>Hobbies</mark></a>
+            <li class="nav__item">
+                <a href="./hobbies.html" class="nav__link">Hobbies</a>
             </li>
-            <li style="display: inline;">
-                <a href="./favorite.html"><mark>Favoritos</mark></a>
+            <li class="nav__item">
+                <a href="./favorite.html" class="nav__link">Favoritos</a>
+            </li>
+            <li class="nav__item">
+                <a href="./schedule.html" class="nav__link">Horários</a>
+            </li>
+            <li class="nav__item">
+                <a href="./agenda.html" class="nav__link">Marcar Horário</a>
             </li>
         </ul>
     </nav>
 
-    <hr>
+    <main class="main-content">
+        <h3 class="main-content__title">Favoritos</h3>
 
-    <main>
+        <div class="favorite">
+            <a href="https://www.instagram.com" target="_blank" class="favorite__link">
+                <img src="./assets/favorites/instagram.jpeg" alt="instagram" class="favorite__image">
+            </a>
+            <p class="favorite__description">
+                Rede social focada na publicação de fotos. Ficou famosa pelos filtros que até hoje são muito bons e fazem diferença pra feios como eu.
+            </p>
+        </div>
 
-        <h3>Favoritos</h3>
+        <div class="favorite">
+            <a href="https://www.x.com" target="_blank" class="favorite__link">
+                <img src="./assets/favorites/x.png" alt="x twitter" class="favorite__image">
+            </a>
+            <p class="favorite__description">
+                Rede social focada em entregar informação imparcial e precisa para os usuários, bem como promover o debate (sempre respeitoso) sobre temas extremamente relevantes para sociedade.
+            </p>
+        </div>
 
-        <h2>
-            <a href="https://www.instagram.com" target="_blank">Instagram</a>
-        </h2>
-        <p>
-            Rede social focada em foto. Ficou famosa pelos filtros que até hoje são muito bons e fazem diferença nas fotos.
-        </p>
-
-        <br>
-
-        <h2>
-            <a href="https://www.x.com" target="_blank">X (ex twitter)</a>
-        </h2>
-        <p>
-            Rede social focada em entregar informação imparcial e precisa para os usuários, bem como promover o debate (sempre respeitoso) sobre temas extremamente relevantes para sociedade.
-        </p>
-
-        <br>
-
-        <h2>
-            <a href="https://www.facebool.com" target="_blank">Facebook</a>
-        </h2>
-        <p>
-            Foi bacana quando substituiu o falecido <i>Orkut</i>, era possível <i>'Cutucar'</i> as gatinhas, mas hoje é frequentado majoritariamente por idosos e vendedores do marketplace!
-        </p>
+        <div class="favorite">
+            <a href="https://www.facebook.com" target="_blank" class="favorite__link">
+                <img src="./assets/favorites/facebook.png" alt="facebook" class="favorite__image">
+            </a>
+            <p class="favorite__description">
+                Foi bacana quando substituiu o falecido <i>Orkut</i>, era possível <i>'Cutucar'</i> as gatinhas. Mas hoje é frequentado majoritariamente por idosos que mandam belas imagens de bom dia e vendedores do marketplace!
+            </p>
+        </div>
     </main>
 
-    <hr>
-
-    <footer>
-        <h4>Feito por Nicolas Martins</h4>
+    <footer class="footer">
+        <h4 class="footer__text">Feito por Nicolas Martins</h4>
     </footer>
 
-    <hr>
+    <hr class="divider">
 </body>
+
 </html>

@@ -1,0 +1,16 @@
+/* Estilos específicos para a página Currículo */
+.main-content {
+    background-color: #212121;
+    padding: 35px;
+    border-radius: 12px;
+}
+
+.main-content__title {
+    font-size: 2.5rem;
+    margin-bottom: 25px;
+}
+
+.main-content__list-item {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}

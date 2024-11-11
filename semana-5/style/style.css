@@ -1,0 +1,181 @@
+/* Variáveis de Cores */
+:root {
+    --dark-color: #121212;
+    --light-color: #f0f0f0;
+    --secondary-color: #3498db;
+    --accent-color: #e74c3c;
+    --color-link-hover: #9b59b6;
+    --color-fonte: #ffffff;
+}
+
+/* Reset de Estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: var(--dark-color);
+    color: var(--color-fonte);
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+a:hover {
+    color: var(--color-link-hover);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    color: var(--color-fonte);
+}
+
+/* Tamanho de fontes */
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.75rem;
+}
+
+p, ul, li {
+    font-size: 1.125rem;
+}
+
+/* Remover negrito e itálico no HTML */
+strong, b {
+    font-weight: normal;
+}
+
+em, i {
+    font-style: normal;
+}
+
+/* Layout */
+.page {
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header__title {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.nav {
+    background-color: var(--dark-color);
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+.nav__list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav__item {
+    padding: 5px 10px;
+}
+
+.nav__link {
+    color: var(--color-fonte);
+    font-size: 1.25rem;
+}
+
+.nav__link:hover {
+    color: var(--color-link-hover);
+}
+
+.main-content {
+    background-color: var(--dark-color);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.main-content__title {
+    margin-bottom: 15px;
+}
+
+.main-content__paragraph {
+    margin-bottom: 15px;
+}
+
+.main-content__list {
+    margin-bottom: 20px;
+}
+
+.main-content__list-item {
+    margin-bottom: 10px;
+}
+
+/* Tabelas */
+.schedule {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.schedule__header,
+.schedule__cell {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid var(--light-color);
+}
+
+.schedule__header {
+    background-color: var(--secondary-color);
+}
+
+.schedule__row:nth-child(even) {
+    background-color: #2c2c2c;
+}
+
+.schedule__row:nth-child(odd) {
+    background-color: #1a1a1a;
+}
+
+.schedule__cell {
+    color: var(--color-fonte);
+}
+
+.schedule__cell:hover {
+    background-color: var(--accent-color);
+    color: var(--light-color);
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: var(--dark-color);
+    margin-top: 40px;
+}
+
+.footer__text {
+    color: var(--color-fonte);
+}
+
+/* Estilo das imagens */
+img {
+    height: 200px;
+    width: auto;
+    /* display: block; */
+    margin: 0 auto;
+}

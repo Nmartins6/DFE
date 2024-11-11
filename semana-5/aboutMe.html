@@ -1,62 +1,83 @@
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre Nicolas Martins</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/aboutMe.css">
 </head>
-<body>
-    <header>
-        <h1>Sobre Nicolas Martins</h1>
+
+<html>
+
+<body class="page">
+    <header class="header">
+        <h1 class="header__title">Sobre Nicolas Martins</h1>
     </header>
 
-    <hr>
-
-    <nav>
-       
-        <ul>
-            <li style="display: inline; margin-right: 15px;">
-                <a href="./index.html"><mark>Início</mark></a>
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__item">
+                <a href="./index.html" class="nav__link">Início</a>
             </li>
-            <li style="display: inline; margin-right: 15px;">
-                <a href="./aboutMe.html"><mark>Sobre mim</mark></a>
+            <li class="nav__item">
+                <a href="./aboutMe.html" class="nav__link">Sobre mim</a>
             </li>
-            <li style="display: inline; margin-right: 15px;">
-                <a href="./resume.html"><mark>Currículo</mark></a>
+            <li class="nav__item">
+                <a href="./resume.html" class="nav__link">Currículo</a>
             </li>
-            <li style="display: inline; margin-right: 15px;">
-                <a href="./cite.html"><mark>Citações</mark></a>
+            <li class="nav__item">
+                <a href="./cite.html" class="nav__link">Citações</a>
             </li>
-            <li style="display: inline; margin-right: 15px;">
-                <a href="./hobbies.html"><mark>Hobbies</mark></a>
+            <li class="nav__item">
+                <a href="./hobbies.html" class="nav__link">Hobbies</a>
             </li>
-            <li style="display: inline;">
-                <a href="./favorite.html"><mark>Favoritos</mark></a>
+            <li class="nav__item">
+                <a href="./favorite.html" class="nav__link">Favoritos</a>
+            </li>
+            <li class="nav__item">
+                <a href="./schedule.html" class="nav__link">Horários</a>
+            </li>
+            <li class="nav__item">
+                <a href="./agenda.html" class="nav__link">Marcar Horário</a>
             </li>
         </ul>
     </nav>
 
-    <hr>
+    <main class="main-content">
+        <h3 class="main-content__title">Sobre mim</h3>
 
-    <main>
+        <p class="main-content__info">Apelido: Nicao</p>
+        <p class="main-content__info">Idade: 27</p>
+        <p class="main-content__info">Cidade: Arroio dos Ratos (Capital)</p>
 
-        <h3>Sobre mim</h3>
+        <a href="https://pt.wikipedia.org/wiki/Arroio_dos_Ratos" target="_blank" class="main-content__link">
+            <img src="./assets/about-me/arroio-dos-ratos.jpeg" alt="Imagem de Arroio dos Ratos"
+                class="main-content__image">
+        </a>
 
-        <p>Apelido: <b>Nicao</b></p>
-        <p>Idade: <b>27</b></p>
-        <p>Cidade: <b>Arroio dos Ratos(Capital)</b></p>
-        <p>Altura: <b>1.80</b></p>
-        <p>Profissão: <b>Metalúgico</b></p>
-        <p>Time: <b>Internacional de POA</b></p>
-        <p>Comida Favorita: <b>Pizza</b></p>
-        <p>Email: <b>nicolas@email.com</b></p>
+        <p class="main-content__info">Altura: 1.80</p>
+        <p class="main-content__info">Profissão: Metalúrgico</p>
+        <p class="main-content__info">Time: Internacional de POA</p>
+
+        <a href="https://internacional.com.br/" target="_blank" class="main-content__link">
+            <img src="./assets/about-me/internacional.jpeg" alt="Internacional de Porto Alegre"
+                class="main-content__image">
+        </a>
+
+        <p class="main-content__info">Comida Favorita: Pizza</p>
+
+        <a href="https://pt.wikipedia.org/wiki/Pizza" target="_blank" class="main-content__link">
+            <img src="./assets/about-me/pizza.jpeg" alt="Pizza" class="main-content__image">
+        </a>
+
+        <p class="main-content__info">Email: nicolas@email.com</p>
     </main>
 
-    <hr>
-
-    <footer>
-        <h4>Feito por Nicolas Martins</h5>
+    <footer class="footer">
+        <h4 class="footer__text">Feito por Nicolas Martins</h4>
     </footer>
 
-    <hr>
 </body>
+
 </html>

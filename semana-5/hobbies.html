@@ -1,61 +1,88 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hobbies Nicolas Martins</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/hobbies.css">
 </head>
-<body>
-    <header>
-        <h1>Hobbies Nicolas Martins</h1>
+
+<body class="page">
+    <header class="header">
+        <h1 class="header__title">Hobbies Nicolas Martins</h1>
     </header>
 
-    <hr>
-
-    <nav>
-       
-        <ul>
-            <li style="display: inline; margin-right: 15px;">
-                <a href="./index.html"><mark>Início</mark></a>
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__item">
+                <a href="./index.html" class="nav__link">Início</a>
             </li>
-            <li style="display: inline; margin-right: 15px;">
-                <a href="./aboutMe.html"><mark>Sobre mim</mark></a>
+            <li class="nav__item">
+                <a href="./aboutMe.html" class="nav__link">Sobre mim</a>
             </li>
-            <li style="display: inline; margin-right: 15px;">
-                <a href="./resume.html"><mark>Currículo</mark></a>
+            <li class="nav__item">
+                <a href="./resume.html" class="nav__link">Currículo</a>
             </li>
-            <li style="display: inline; margin-right: 15px;">
-                <a href="./cite.html"><mark>Citações</mark></a>
+            <li class="nav__item">
+                <a href="./cite.html" class="nav__link">Citações</a>
             </li>
-            <li style="display: inline; margin-right: 15px;">
-                <a href="./hobbies.html"><mark>Hobbies</mark></a>
+            <li class="nav__item">
+                <a href="./hobbies.html" class="nav__link">Hobbies</a>
             </li>
-            <li style="display: inline;">
-                <a href="./favorite.html"><mark>Favoritos</mark></a>
+            <li class="nav__item">
+                <a href="./favorite.html" class="nav__link">Favoritos</a>
+            </li>
+            <li class="nav__item">
+                <a href="./schedule.html" class="nav__link">Horários</a>
+            </li>
+            <li class="nav__item">
+                <a href="./agenda.html" class="nav__link">Marcar Horário</a>
             </li>
         </ul>
     </nav>
 
-    <hr>
+    <main class="main-content">
+        <h3 class="main-content__title">Hobbies</h3>
 
-    <main>
+        <section class="hobbies">
+            <div class="hobby">
+                <h4 class="hobby__title">Carro Velho</h4>
+                <div class="hobby__images">
+                    <img src="./assets/hobbies/carros1.jpg" alt="motor de carro velho" class="hobby__image">
+                    <img src="./assets/hobbies/carros2.jpg" alt="carro velho" class="hobby__image">
+                    <img src="./assets/hobbies/carros3.jpg" alt="mais motor de carro velho" class="hobby__image">
+                </div>
+                <p class="hobby__description">Volta e meia eu compro uns carros velhos pra me incomodar</p>
+            </div>
 
-        <h3>Hobbies</h3>
+            <div class="hobby">
+                <h4 class="hobby__title">Jiu Jitsu</h4>
+                <div class="hobby__images">
+                    <img src="./assets/hobbies/jiu1.jpg" alt="jiu jitsu" class="hobby__image">
+                    <img src="./assets/hobbies/jiu2.jpg" alt="equipe de jiu jitsu" class="hobby__image">
+                </div>
+                <p class="hobby__description">Praticante de Jiu Jitsu (apanhando bem mais do que batendo)</p>
+            </div>
 
-        <h3>Futebol</h3>
-        <p>Quando rola, curto jogar uma bolinha com a galera.</p>
-
-        <br>
-
-        <h3>JiuJitsu</h3>
-        <p>Praticante de jiujitsu (apanhando bem mais que batendo)</p>
-
+            <div class="hobby">
+                <h4 class="hobby__title">Motociclista (motoqueiro)</h4>
+                <div class="hobby__images">
+                    <img src="./assets/hobbies/moto3.jpg" alt="Moto" class="hobby__image">
+                    <img src="./assets/hobbies/moto2.jpg" alt="Moto" class="hobby__image">
+                    <img src="./assets/hobbies/moto1.jpg" alt="Moto" class="hobby__image">
+                    <img src="./assets/hobbies/moto4.jpg" alt="Moto" class="hobby__image">
+                    <img src="./assets/hobbies/moto5.jpg" alt="Moto" class="hobby__image">
+                </div>
+                <p class="hobby__description">VRUUUUUUUUUUM!</p>
+            </div>
+        </section>
     </main>
 
-    <hr>
-
-    <footer>
-        <h4>Feito por Nicolas Martins</h4>
+    <footer class="footer">
+        <h4 class="footer__text">Feito por Nicolas Martins</h4>
     </footer>
 </body>
+
 </html>

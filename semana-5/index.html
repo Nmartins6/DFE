@@ -1,61 +1,78 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página Nicolas Martins</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/index.css">
 </head>
-<body>
-    <header>
-        <h1>Página Nicolas Martins</h1>
+
+<html>
+
+<body class="page">
+    <header class="header">
+        <h1 class="header__title">Página Nicolas Martins</h1>
     </header>
 
-    <hr>
-
-    <nav>
-       
-        <ul>
-            <li style="display: inline; margin-right: 15px;">
-                <a href="./index.html"><mark>Início</mark></a>
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__item">
+                <a href="./index.html" class="nav__link">Início</a>
             </li>
-            <li style="display: inline; margin-right: 15px;">
-                <a href="./aboutMe.html"><mark>Sobre mim</mark></a>
+            <li class="nav__item">
+                <a href="./aboutMe.html" class="nav__link">Sobre mim</a>
             </li>
-            <li style="display: inline; margin-right: 15px;">
-                <a href="./resume.html"><mark>Currículo</mark></a>
+            <li class="nav__item">
+                <a href="./resume.html" class="nav__link">Currículo</a>
             </li>
-            <li style="display: inline; margin-right: 15px;">
-                <a href="./cite.html"><mark>Citações</mark></a>
+            <li class="nav__item">
+                <a href="./cite.html" class="nav__link">Citações</a>
             </li>
-            <li style="display: inline; margin-right: 15px;">
-                <a href="./hobbies.html"><mark>Hobbies</mark></a>
+            <li class="nav__item">
+                <a href="./hobbies.html" class="nav__link">Hobbies</a>
             </li>
-            <li style="display: inline;">
-                <a href="./favorite.html"><mark>Favoritos</mark></a>
+            <li class="nav__item">
+                <a href="./favorite.html" class="nav__link">Favoritos</a>
+            </li>
+            <li class="nav__item">
+                <a href="./schedule.html" class="nav__link">Horários</a>
+            </li>
+            <li class="nav__item">
+                <a href="./agenda.html" class="nav__link">Marcar Horário</a>
             </li>
         </ul>
     </nav>
 
-    <hr>
+    <main class="main-content">
+        <img src="./assets/index/hero-image.jpg" alt="Imagem principal" class="main-content__hero-image">
 
-    <main>
-        <h2>Nesta página você vai saber mais sobre mim.</h2>
-        <p>
+        <h2 class="main-content__subtitle">Nesta página você vai saber mais sobre mim.</h2>
+
+        <p class="main-content__text">
             Cada um dos itens do menu acima vai para uma das seções que dizem um pouco mais sobre mim.
         </p>
-        <p>
+
+        <p class="main-content__text">
             Clicando nos links acima você deve ir para uma nova página que deve exibir um conteúdo específico
             sobre algo que seja de interesse do criador da página.
         </p>
-        <p>
-            <strong>Texto qualquer em negrito</strong>
+
+        <div class="profile-images">
+            <img src="./assets/index/profile-image1.jpg" alt="Nicolas" class="profile-images__image">
+            <img src="./assets/index/profile-image2.jpg" alt="Nicolas" class="profile-images__image">
+            <img src="./assets/index/profile-image3.jpg" alt="Nicolas" class="profile-images__image">
+        </div>
+
+        <p class="main-content__note">
+            Terão pelo menos 6 páginas linkadas a esta página.
         </p>
     </main>
 
-    <hr>
-
-    <footer>
-        <h4>Feito por Nicolas Martins</h4>
+    <footer class="footer">
+        <h4 class="footer__text">Feito por Nicolas Martins</h4>
     </footer>
 </body>
+
 </html>

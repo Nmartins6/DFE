@@ -1,0 +1,16 @@
+/* Estilos específicos para a página Agenda */
+.main-content {
+    background-color: #1f1f1f;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.main-content__title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.main-content__list-item {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}

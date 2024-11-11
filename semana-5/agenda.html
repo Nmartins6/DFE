@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Nicolas Martins</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/agenda.css">
+</head>
+
+<body class="page">
+    <header class="header">
+        <h1 class="header__title">Página Nicolas Martins</h1>
+    </header>
+
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__item">
+                <a href="./index.html" class="nav__link">Início</a>
+            </li>
+            <li class="nav__item">
+                <a href="./aboutMe.html" class="nav__link">Sobre mim</a>
+            </li>
+            <li class="nav__item">
+                <a href="./resume.html" class="nav__link">Currículo</a>
+            </li>
+            <li class="nav__item">
+                <a href="./cite.html" class="nav__link">Citações</a>
+            </li>
+            <li class="nav__item">
+                <a href="./hobbies.html" class="nav__link">Hobbies</a>
+            </li>
+            <li class="nav__item">
+                <a href="./favorite.html" class="nav__link">Favoritos</a>
+            </li>
+            <li class="nav__item">
+                <a href="./schedule.html" class="nav__link">Horários</a>
+            </li>
+            <li class="nav__item">
+                <a href="./agenda.html" class="nav__link">Marcar Horário</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main class="main-content">
+        <h3 class="main-content__title">Marcar Horário</h3>
+
+        <form action="#" method="post" class="form">
+            <fieldset class="form__fieldset">
+                <legend class="form__legend">Dados para marcar horário</legend>
+
+                <div class="form__group">
+                    <label for="nome" class="form__label">Nome:</label>
+                    <input type="text" id="nome" name="nome" class="form__input" required>
+                </div>
+
+                <div class="form__group">
+                    <label for="email" class="form__label">Email:</label>
+                    <input type="email" id="email" name="email" class="form__input" required>
+                </div>
+
+                <div class="form__group">
+                    <label for="assunto" class="form__label">Assunto:</label>
+                    <input type="text" id="assunto" name="assunto" class="form__input">
+                </div>
+
+                <div class="form__group">
+                    <label for="idade" class="form__label">Idade:</label>
+                    <input type="number" id="idade" name="idade" class="form__input" min="1">
+                </div>
+
+                <div class="form__group form__group--radio">
+                    <label class="form__label">Sexo:</label>
+                    <input type="radio" id="feminino" name="sexo" value="Feminino" class="form__radio">
+                    <label for="feminino" class="form__label">Feminino</label>
+                    <input type="radio" id="masculino" name="sexo" value="Masculino" class="form__radio">
+                    <label for="masculino" class="form__label">Masculino</label>
+                    <input type="radio" id="outro" name="sexo" value="Outro" class="form__radio">
+                    <label for="outro" class="form__label">Outro</label>
+                </div>
+
+                <div class="form__group">
+                    <label for="data" class="form__label">Dia:</label>
+                    <input type="date" id="data" name="data" class="form__input">
+                </div>
+
+                <div class="form__group">
+                    <label for="horario" class="form__label">Horário:</label>
+                    <input type="time" id="horario" name="horario" class="form__input">
+                </div>
+
+                <div class="form__group">
+                    <label for="mensagem" class="form__label">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" class="form__textarea" rows="8" cols="50"></textarea>
+                </div>
+
+                <div class="form__group">
+                    <label for="arquivo" class="form__label">Arquivo (caso necessário):</label>
+                    <input type="file" id="arquivo" name="arquivo" class="form__input">
+                </div>
+
+                <div class="form__group">
+                    <input type="submit" value="Enviar" class="form__submit">
+                </div>
+            </fieldset>
+        </form>
+    </main>
+
+    <footer class="footer">
+        <h4 class="footer__text">Feito por Nicolas Martins</h4>
+    </footer>
+</body>
+
+</html>

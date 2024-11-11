@@ -1,0 +1,21 @@
+/* Estilos específicos para a página Sobre Mim */
+.main-content {
+    background-color: #202020;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.main-content__title {
+    font-size: 2.5rem;
+    margin-bottom: 25px;
+}
+
+.main-content__paragraph {
+    font-size: 1.25rem;
+    color: var(--cor-clara);
+}
+
+.main-content__list-item {
+    font-style: italic;
+    margin-bottom: 12px;
+}
